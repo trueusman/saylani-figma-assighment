@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positivus | Hikatoon</title>
+    <link rel="icon" href="logo.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- === HEADER SECTION === -->
+    <header class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="logo" class="icon" />
+      </div>
+
+      <div class="nav-rights" id="nav-right">
+        <nav class="nav-linkse">
+          <a href="#">About us</a>
+          <a href="#">Services</a>
+          <a href="#">Use Cases</a>
+          <a href="#">Pricing</a>
+          <a href="#">Blog</a>
+        </nav>
+        <button class="quote-btnn">Request a quote</button>
+      </div>
+
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <!-- === HERO SECTION === -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Navigating the<br />digital landscape<br />for success</h1>
+        <p>
+          Our digital marketing agency helps businesses<br />
+          grow and succeed online through a range of<br />
+          services including SEO, PPC, social media marketing,<br />
+          and content creation.
+        </p>
+        <button class="hero-btn">Book a consultation</button>
+      </div>
+      <div class="hero-image">
+        <img src="hero-sec.png" alt="Digital Marketing Graphic" />
+      </div>
+    </section>
+    <!-- === MARQUEE SECTION ==== -->
+    <marquee behavior="" direction="">
+      <img src="img/Company logo.png" alt="" /> &nbsp
+      <img src="img/Company logo (1).png" alt="" />
+      <img src="img/Company logo (2).png" alt="" />
+      <img src="img/Company logo (3).png" alt="" />
+      <img src="img/Company logo (4).png" alt="" />
+      <img src="img/Company logo (5).png" alt="" />
+    </marquee>
+
+    <!-- === SERVICES CARD SECTION ==== -->
+    <section class="services">
+      <h2><span class="highlight">Services</span></h2>
+      <p>
+        At our digital marketing agency, we offer a range of services to help
+        businesses grow and succeed online. These services include:
+      </p>
+
+      <div class="cards-container">
+        <div class="card">
+          <div class="card-title">
+            <div class="titile-lift">Search engine optimization</div>
+            <div class="title-right">
+              <a href="#" class="learn-more"
+                ><i class="fas fa-arrow-right"></i> Learn more</a
+              >
+            </div>
+          </div>
+          <img src="card (1).png" alt="SEO Illustration" /><br />
+        </div>
+
+        <div class="card-green">
+          <div class="card-titles">
+            <div class="titile-lifts">
+              Pay-per-click <br />
+              advertising
+            </div>
+            <div class="title-rights">
+              <a href="#" class="learn-more"
+                ><i class="fas fa-arrow-right"></i> Learn more</a
+              >
+            </div>
+          </div>
+          <img src="card (2).png" alt="SEO Illustration" /><br />
+        </div>
+      </div>
+    </section>
+
+    <!-- === WORKING PROCES SECTION === -->
+
+    <div class="process-container">
+      <div class="header">
+        <span class="title">Our Working Process</span>
+        <div class="subtitle">
+          Step-by-Step Guide to Achieving<br />Your Business Goals
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-header" onclick="toggleStep(this)">
+          <span class="step-number">01</span>
+          <span class="step-title">Consultation</span>
+          <span class="toggle">+</span>
+        </div>
+        <div class="step-content">
+          During the initial consultation, we will discuss your business goals
+          and objectives, target audience, and current marketing efforts. This
+          will allow us to understand your needs and tailor our services to best
+          fit your requirements.
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-header" onclick="toggleStep(this)">
+          <span class="step-number">02</span>
+          <span class="step-title">Research and Strategy Development</span>
+          <span class="toggle">+</span>
+        </div>
+        <div class="step-content">
+          We perform in-depth market research and develop a custom strategy
+          based on your industry, audience, and goals to ensure a strong
+          foundation.
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-header" onclick="toggleStep(this)">
+          <span class="step-number">03</span>
+          <span class="step-title">Implementation</span>
+          <span class="toggle">+</span>
+        </div>
+        <div class="step-content">
+          We put the plan into action using best practices in design,
+          development, marketing, and automation tools.
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-header" onclick="toggleStep(this)">
+          <span class="step-number">04</span>
+          <span class="step-title">Monitoring and Optimization</span>
+          <span class="toggle">+</span>
+        </div>
+        <div class="step-content">
+          Performance is continuously monitored, and improvements are made using
+          data-driven decisions.
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-header" onclick="toggleStep(this)">
+          <span class="step-number">05</span>
+          <span class="step-title">Reporting and Communication</span>
+          <span class="toggle">+</span>
+        </div>
+        <div class="step-content">
+          Regular updates and performance reports ensure transparency and
+          alignment with your goals.
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-header" onclick="toggleStep(this)">
+          <span class="step-number">06</span>
+          <span class="step-title">Continual Improvement</span>
+          <span class="toggle">+</span>
+        </div>
+        <div class="step-content">
+          Based on insights, we refine the approach over time to achieve better
+          results and adapt to new challenges.
+        </div>
+      </div>
+    </div>
+
+    <!-- === FORM SECTION === -->
+    <div class="contact-wrapper">
+      <div class="contact-header">
+        <span class="title">Contact Us</span>
+        <p class="subtitle">
+          Connect with Us: Let’s Discuss Your Digital Marketing Needs
+        </p>
+      </div>
+
+      <div class="contact-form-wrapper">
+        <form class="contact-form">
+          <div class="radio-group">
+            <label
+              ><input type="radio" name="contact_reason" checked /> Say
+              Hi</label
+            >
+            <label
+              ><input type="radio" name="contact_reason" /> Get a Quote</label
+            >
+          </div>
+
+          <label>
+            <div class="label-text">Name</div>
+            <input type="text" placeholder="Name" required />
+          </label>
+
+          <label>
+            <div class="label-text">Email*</div>
+            <input type="email" placeholder="Email" required />
+          </label>
+
+          <label>
+            <div class="label-text">Message*</div>
+            <textarea placeholder="Message" required></textarea>
+          </label>
+
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="visual-side">
+          <img src="form.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- === FOOTER SECTION === -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <!-- Top Row --> 
+        <div class="footer-top">
+          <div class="footer-logo">★ Positivus</div>
+
+          <nav class="footer-links">
+            <a class="underline-hover" href="#">About us</a>
+            <a class="underline-hover" href="#">Services</a>
+            <a class="underline-hover" href="#">Use Cases</a>
+            <a class="underline-hover" href="#">Pricing</a>
+            <a class="underline-hover" href="#">Blog</a>
+          </nav>
+
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Twitter">
+              <i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <!-- Main Content Row -->
+        <div class="footer-content">
+          <div class="footer-contact">
+            <span class="contact-label">Contact us:</span> <br /><br />
+            <p>Email: info@positivus.com</p>
+            <br />
+            <p>Phone: 555-567-8901</p>
+            <br />
+            <p>
+              Address: 1234 Main St<br />Moonstone City, Stardust State 12345
+            </p>
+          </div>
+          <div class="f-form">
+            <form class="subscribe-form">
+              <input type="email" placeholder="Email" required />
+              <button type="submit">Subscribe to news</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Bottom -->
+        <hr />
+        <div class="footer-bottom">
+          <p>© 2023 Positivus. All Rights Reserved.</p>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- === EXTRA WORK USE JAVASCRIPT === -->
+    <script>
+      function toggleMenu() {
+        const navRight = document.getElementById("nav-right");
+        navRight.classList.toggle("active");
+      }
+
+      function toggleStep(headerEl) {
+        const step = headerEl.parentElement;
+        const content = step.querySelector(".step-content");
+        const toggle = headerEl.querySelector(".toggle");
+
+        const isActive = step.classList.contains("active");
+        if (isActive) {
+          content.style.display = "none";
+          toggle.textContent = "+";
+          step.classList.remove("active");
+        } else {
+          content.style.display = "block";
+          toggle.textContent = "−";
+          step.classList.add("active");
+        }
+      }
+    </script>
+
+
+
+
+
+
+
+<p class="underline-hover">Hover over this text</p>
+
+
+  </body>
+</html>
